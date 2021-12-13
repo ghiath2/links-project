@@ -189,3 +189,47 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* Open Cafe section */
+
+#open-cafe {
+    height: 600px;
+    width: 100%;
+	margin-bottom: 80px;
+	background: url('../css/imeges/coffee.jpg') center center / cover no-repeat fixed;
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+#white {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 280%;
+}
+
+#menu {
+    padding-top:30px ;
+    width: 33%;
+    float: left;
+    background-color: aquamarine;
+}
+
+#dinner {
+    padding-top:30px ;
+    width: 33%;
+    float: right;
+    background-color: black;
+}
+
+#times {
+    padding-top: 33%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+li {
+    list-style-type: none;
+}
