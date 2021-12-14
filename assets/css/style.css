@@ -196,12 +196,10 @@ hr {
     height: 600px;
     width: 100%;
 	margin-bottom: 80px;
-	background: url('../css/imeges/coffee.jpg') center center / cover no-repeat fixed;
+	background: url('../css/imeges/cafe.jpg') center center / cover no-repeat fixed;
 }
 
-.text-white {
-	color: #FFFFFF;
-}
+
 
 #white {
     color: #FFFFFF;
@@ -210,26 +208,56 @@ hr {
     font-size: 280%;
 }
 
-#menu {
+#food {
     padding-top:30px ;
     width: 33%;
     float: left;
-    background-color: aquamarine;
+    color: #FFFFFF;
 }
 
-#dinner {
+#drinks {
     padding-top:30px ;
     width: 33%;
     float: right;
-    background-color: black;
+    color: #FFFFFF;
 }
 
 #times {
-    padding-top: 33%;
+    padding-top: 30px;
     margin: 0 auto;
-    background-color: blue;
+    color: #FFFFFF;
 }
 
-li {
-    list-style-type: none;
+.food2 {
+    width: 60%;
+    float: right; 
+    clear: both;
+    
+}
+
+.drinks2 {
+    width: 60%;
+    float: left; 
+    clear: both;
+}
+
+hr {
+    border-top: 1px solid #FFFFFF;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#times {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+ul {
+    font-size: 20px;
+}
+
+#food p {
+    font-size: 20px;
 }
