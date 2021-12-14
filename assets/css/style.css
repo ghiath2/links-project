@@ -193,9 +193,9 @@ hr {
 /* Open Cafe section */
 
 #open-cafe {
-    height: 600px;
+    height: 400px;
     width: 100%;
-	margin-bottom: 80px;
+	margin-bottom: 5px;
 	background: url('../css/imeges/cafe.jpg') center center / cover no-repeat fixed;
 }
 
@@ -260,4 +260,17 @@ ul {
 
 #food p {
     font-size: 20px;
+}
+
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
