@@ -112,6 +112,7 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+    border-radius: 20px 40px 5px 50px;
 }
 
 /* Our services */
@@ -226,12 +227,15 @@ hr {
     padding-top: 30px;
     margin: 0 auto;
     color: #FFFFFF;
+    
 }
 
 .food2 {
     width: 60%;
     float: right; 
     clear: both;
+    background-color: rgba(241, 109, 107, .7);
+    text-align: center;
     
 }
 
@@ -239,6 +243,8 @@ hr {
     width: 60%;
     float: left; 
     clear: both;
+    background-color: rgba(241, 109, 107, .7);
+    text-align: center;
 }
 
 hr {
@@ -252,6 +258,8 @@ hr {
     height: 300px;
     padding: 30px;
     margin: 0 auto;
+    background-color: rgba(241, 109, 107, .7);
+    text-align: center;
 }
 
 ul {
