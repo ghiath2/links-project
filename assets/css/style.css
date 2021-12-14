@@ -193,81 +193,50 @@ hr {
 
 /* Open Cafe section */
 
-#open-cafe {
+#open {
     height: 400px;
-    width: 100%;
-	margin-bottom: 5px;
-	background: url('../css/imeges/cafe.jpg') center center / cover no-repeat fixed;
+	padding: 1rem 0;
+	background: url(../css/imeges/cafe.jpg) center center / cover no-repeat fixed;
+    text-align: center;
 }
 
-
-
-#white {
-    color: #FFFFFF;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 280%;
+.cafe {
+	width: 33%;
+	margin: 1rem 0;
+	display: inline-block;
 }
 
 #food {
-    padding-top:30px ;
-    width: 33%;
-    float: left;
-    color: #FFFFFF;
-}
-
-#drinks {
-    padding-top:30px ;
-    width: 33%;
-    float: right;
-    color: #FFFFFF;
+	background-color: rgba(241, 109, 107, .7);
+    position: relative;
+    width: 20%;
+    border-radius: 20px 40px 5px 50px;
 }
 
 #times {
-    padding-top: 30px;
-    margin: 0 auto;
-    color: #FFFFFF;
-    
+	background-color: rgba(241, 109, 107, .7);
+	position: relative;
+    width: 20%;
+    border-radius: 20px 40px 5px 50px;
 }
 
-.food2 {
-    width: 60%;
-    float: right; 
-    clear: both;
-    background-color: rgba(241, 109, 107, .7);
-    text-align: center;
-    
-}
-
-.drinks2 {
-    width: 60%;
-    float: left; 
-    clear: both;
-    background-color: rgba(241, 109, 107, .7);
-    text-align: center;
-}
-
-hr {
-    border-top: 1px solid #FFFFFF;
-    width: 100%;
-    margin: 5px 0;
-}
-
-#times {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    margin: 0 auto;
-    background-color: rgba(241, 109, 107, .7);
-    text-align: center;
+#dinner {
+	background-color: rgba(241, 109, 107, .7);
+    position: relative;
+    width: 20%;
+    border-radius: 20px 40px 5px 50px;
 }
 
 ul {
-    font-size: 20px;
+    list-style-type: none;
 }
 
-#food p {
-    font-size: 20px;
+#open h2 {
+    font-size: 280%;
+}
+
+#open ul {
+    font-size: 120%;
 }
 
 /* map */
@@ -313,3 +282,6 @@ footer > p {
 	color: silver;
 }
 
+#open-cafe ul {
+    list-style-type: none;
+}
